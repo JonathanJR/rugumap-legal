@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad — RuguMap</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.7; color: #1a1a2e; background: #f8f9fa; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 24px; }
+        .lang-switch { text-align: right; margin-bottom: 24px; }
+        .lang-switch a { color: #2D4F6E; text-decoration: none; font-size: 14px; }
+        h1 { font-size: 28px; margin-bottom: 8px; color: #1a1a2e; }
+        .subtitle { color: #6c757d; margin-bottom: 32px; font-size: 14px; }
+        h2 { font-size: 20px; margin-top: 32px; margin-bottom: 12px; color: #1a1a2e; border-bottom: 2px solid #2D4F6E; padding-bottom: 4px; display: inline-block; }
+        h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; }
+        p, li { margin-bottom: 8px; color: #495057; }
+        ul { padding-left: 24px; }
+        table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+        th, td { border: 1px solid #dee2e6; padding: 10px 12px; text-align: left; }
+        th { background: #e9ecef; font-weight: 600; }
+        a { color: #2D4F6E; }
+        .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 13px; }
+        .en { display: none; }
+    </style>
+    <script>
+        function switchLang(lang) {
+            document.querySelectorAll('.es').forEach(el => el.style.display = lang === 'es' ? 'block' : 'none');
+            document.querySelectorAll('.en').forEach(el => el.style.display = lang === 'en' ? 'block' : 'none');
+            document.documentElement.lang = lang;
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="lang-switch">
+        <a href="#" onclick="switchLang('es'); return false;">Español</a> |
+        <a href="#" onclick="switchLang('en'); return false;">English</a>
+    </div>
+
+    <!-- ESPAÑOL -->
+    <div class="es">
+        <h1>Política de Privacidad</h1>
+        <p class="subtitle">Última actualización: 16 de marzo de 2026</p>
+
+        <p>En <strong>JJR Dev Apps</strong> (en adelante, "nosotros"), en colaboración con el <strong>ICMAN-CSIC</strong> (Instituto de Ciencias Marinas de Andalucía), nos comprometemos a proteger tu privacidad. Esta política describe cómo recopilamos, usamos y protegemos tus datos personales cuando utilizas la aplicación <strong>RuguMap</strong>.</p>
+
+        <h2>1. Responsable del tratamiento</h2>
+        <p><strong>JJR Dev Apps</strong>, en colaboración con el <strong>ICMAN-CSIC</strong><br>
+        Email de contacto: <a href="mailto:soporte@rugumap.es">soporte@rugumap.es</a></p>
+
+        <h2>2. Datos que recopilamos</h2>
+        <table>
+            <tr><th>Categoría</th><th>Datos</th><th>Finalidad</th></tr>
+            <tr><td>Cuenta de usuario</td><td>Nombre, email, foto de perfil (del proveedor OAuth)</td><td>Identificación y autenticación</td></tr>
+            <tr><td>Registros</td><td>Fotografías del alga, coordenadas GPS, tipo de entorno, estimación de cantidad</td><td>Investigación científica y monitoreo ambiental</td></tr>
+            <tr><td>Datos técnicos</td><td>Tipo de dispositivo, versión del sistema operativo, registros de errores</td><td>Mejora del servicio y resolución de incidencias</td></tr>
+        </table>
+
+        <h2>3. Base legal</h2>
+        <p>El tratamiento de tus datos se realiza bajo las siguientes bases legales (RGPD / LOPDGDD):</p>
+        <ul>
+            <li><strong>Consentimiento</strong> (Art. 6.1.a RGPD): al crear tu cuenta y realizar registros.</li>
+            <li><strong>Interés legítimo</strong> (Art. 6.1.f RGPD): para el mantenimiento y mejora del servicio.</li>
+            <li><strong>Interés público</strong> (Art. 6.1.e RGPD): los datos de registros alimentan investigación científica sobre especies invasoras, financiada con fondos públicos.</li>
+        </ul>
+
+        <h2>4. Servicios de terceros</h2>
+        <table>
+            <tr><th>Servicio</th><th>Proveedor</th><th>Datos compartidos</th></tr>
+            <tr><td>Autenticación (Google Sign-In)</td><td>Google LLC</td><td>Nombre, email, foto de perfil</td></tr>
+            <tr><td>Autenticación (Sign in with Apple)</td><td>Apple Inc.</td><td>Nombre, email</td></tr>
+            <tr><td>Analítica (Firebase Analytics)</td><td>Google LLC</td><td>Eventos de uso anónimos</td></tr>
+            <tr><td>Informes de errores (Firebase Crashlytics)</td><td>Google LLC</td><td>Datos técnicos del dispositivo</td></tr>
+            <tr><td>Configuración remota (Firebase Remote Config)</td><td>Google LLC</td><td>Ningún dato personal</td></tr>
+            <tr><td>Mapas (Mapbox / Apple MapKit)</td><td>Mapbox Inc. / Apple Inc.</td><td>Ubicación aproximada para renderizar el mapa</td></tr>
+        </table>
+
+        <h2>5. Uso científico de los datos</h2>
+        <p>Los datos de registros (fotografías, coordenadas GPS, tipo y cantidad de alga) se comparten con el <strong>ICMAN-CSIC</strong> para investigación científica sobre la especie invasora <em>Rugulopteryx okamurae</em>. Los datos agregados y anonimizados pueden publicarse en artículos científicos y reportes técnicos. Este proyecto está financiado con fondos públicos.</p>
+
+        <h2>6. Transferencias internacionales</h2>
+        <p>Algunos proveedores (Google, Apple) pueden transferir datos fuera del Espacio Económico Europeo. Estas transferencias están cubiertas por el marco EU-US Data Privacy Framework o cláusulas contractuales tipo aprobadas por la Comisión Europea.</p>
+
+        <h2>7. Conservación de datos</h2>
+        <ul>
+            <li><strong>Datos de cuenta:</strong> mientras mantengas tu cuenta activa. Se eliminan al solicitar la eliminación de la cuenta.</li>
+            <li><strong>Registros científicas:</strong> se conservan indefinidamente de forma anonimizada con fines de investigación, de acuerdo con la legislación aplicable a proyectos financiados con fondos públicos.</li>
+            <li><strong>Datos técnicos (Analytics/Crashlytics):</strong> retenidos por Google hasta 14 meses, de forma anonimizada.</li>
+        </ul>
+
+        <h2>8. Tus derechos</h2>
+        <p>Conforme al RGPD, puedes ejercer los siguientes derechos:</p>
+        <ul>
+            <li><strong>Acceso:</strong> solicitar una copia de tus datos personales.</li>
+            <li><strong>Rectificación:</strong> corregir datos inexactos.</li>
+            <li><strong>Supresión:</strong> solicitar la eliminación de tus datos.</li>
+            <li><strong>Portabilidad:</strong> recibir tus datos en formato estructurado.</li>
+            <li><strong>Oposición:</strong> oponerte al tratamiento de tus datos.</li>
+            <li><strong>Limitación:</strong> solicitar la limitación del tratamiento.</li>
+        </ul>
+        <p>Para ejercer estos derechos, contacta con <a href="mailto:soporte@rugumap.es">soporte@rugumap.es</a>. También puedes presentar una reclamación ante la <strong>Agencia Española de Protección de Datos</strong> (www.aepd.es).</p>
+
+        <h2>9. Seguridad</h2>
+        <p>Protegemos tus datos mediante:</p>
+        <ul>
+            <li>Comunicaciones cifradas (HTTPS/TLS).</li>
+            <li>Autenticación OAuth segura (sin almacenamiento de contraseñas).</li>
+            <li>Servidor backend auto-alojado con acceso restringido.</li>
+            <li>Túnel cifrado Cloudflare para la exposición del servicio.</li>
+        </ul>
+
+        <h2>10. Menores</h2>
+        <p>RuguMap no está dirigida a menores de 16 años. No recopilamos intencionadamente datos de menores de dicha edad.</p>
+
+        <div class="footer">
+            <p>RuguMap — Ciencia ciudadana<br>
+            Desarrollado por JJR Dev Apps en colaboración con ICMAN-CSIC<br>
+            Contacto: <a href="mailto:soporte@rugumap.es">soporte@rugumap.es</a></p>
+        </div>
+    </div>
+
+    <!-- ENGLISH -->
+    <div class="en">
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">Last updated: March 16, 2026</p>
+
+        <p>At <strong>JJR Dev Apps</strong> (hereinafter, "we"), in collaboration with <strong>ICMAN-CSIC</strong> (Institute of Marine Sciences of Andalusia), we are committed to protecting your privacy. This policy describes how we collect, use and protect your personal data when you use the <strong>RuguMap</strong> application.</p>
+
+        <h2>1. Data Controller</h2>
+        <p><strong>JJR Dev Apps</strong>, in collaboration with <strong>ICMAN-CSIC</strong><br>
+        Contact email: <a href="mailto:soporte@rugumap.es">soporte@rugumap.es</a></p>
+
+        <h2>2. Data We Collect</h2>
+        <table>
+            <tr><th>Category</th><th>Data</th><th>Purpose</th></tr>
+            <tr><td>User account</td><td>Name, email, profile picture (from OAuth provider)</td><td>Identification and authentication</td></tr>
+            <tr><td>Records</td><td>Seaweed photographs, GPS coordinates, environment type, quantity estimate</td><td>Scientific research and environmental monitoring</td></tr>
+            <tr><td>Technical data</td><td>Device type, OS version, error logs</td><td>Service improvement and incident resolution</td></tr>
+        </table>
+
+        <h2>3. Legal Basis</h2>
+        <p>Your data is processed under the following legal bases (GDPR):</p>
+        <ul>
+            <li><strong>Consent</strong> (Art. 6.1.a GDPR): when creating your account and making records.</li>
+            <li><strong>Legitimate interest</strong> (Art. 6.1.f GDPR): for service maintenance and improvement.</li>
+            <li><strong>Public interest</strong> (Art. 6.1.e GDPR): record data feeds publicly funded scientific research on invasive species.</li>
+        </ul>
+
+        <h2>4. Third-Party Services</h2>
+        <table>
+            <tr><th>Service</th><th>Provider</th><th>Shared Data</th></tr>
+            <tr><td>Authentication (Google Sign-In)</td><td>Google LLC</td><td>Name, email, profile picture</td></tr>
+            <tr><td>Authentication (Sign in with Apple)</td><td>Apple Inc.</td><td>Name, email</td></tr>
+            <tr><td>Analytics (Firebase Analytics)</td><td>Google LLC</td><td>Anonymous usage events</td></tr>
+            <tr><td>Crash reporting (Firebase Crashlytics)</td><td>Google LLC</td><td>Device technical data</td></tr>
+            <tr><td>Remote configuration (Firebase Remote Config)</td><td>Google LLC</td><td>No personal data</td></tr>
+            <tr><td>Maps (Mapbox / Apple MapKit)</td><td>Mapbox Inc. / Apple Inc.</td><td>Approximate location for map rendering</td></tr>
+        </table>
+
+        <h2>5. Scientific Use of Data</h2>
+        <p>Record data (photographs, GPS coordinates, seaweed type and quantity) is shared with <strong>ICMAN-CSIC</strong> for scientific research on the invasive species <em>Rugulopteryx okamurae</em>. Aggregated and anonymized data may be published in scientific articles and technical reports. This project is publicly funded.</p>
+
+        <h2>6. International Transfers</h2>
+        <p>Some providers (Google, Apple) may transfer data outside the European Economic Area. These transfers are covered by the EU-US Data Privacy Framework or standard contractual clauses approved by the European Commission.</p>
+
+        <h2>7. Data Retention</h2>
+        <ul>
+            <li><strong>Account data:</strong> retained while your account is active. Deleted upon account deletion request.</li>
+            <li><strong>Scientific records:</strong> retained indefinitely in anonymized form for research purposes, in accordance with legislation applicable to publicly funded projects.</li>
+            <li><strong>Technical data (Analytics/Crashlytics):</strong> retained by Google for up to 14 months, in anonymized form.</li>
+        </ul>
+
+        <h2>8. Your Rights</h2>
+        <p>Under the GDPR, you may exercise the following rights:</p>
+        <ul>
+            <li><strong>Access:</strong> request a copy of your personal data.</li>
+            <li><strong>Rectification:</strong> correct inaccurate data.</li>
+            <li><strong>Erasure:</strong> request deletion of your data.</li>
+            <li><strong>Portability:</strong> receive your data in a structured format.</li>
+            <li><strong>Objection:</strong> object to the processing of your data.</li>
+            <li><strong>Restriction:</strong> request restriction of processing.</li>
+        </ul>
+        <p>To exercise these rights, contact <a href="mailto:soporte@rugumap.es">soporte@rugumap.es</a>. You may also file a complaint with the <strong>Spanish Data Protection Agency</strong> (www.aepd.es).</p>
+
+        <h2>9. Security</h2>
+        <p>We protect your data through:</p>
+        <ul>
+            <li>Encrypted communications (HTTPS/TLS).</li>
+            <li>Secure OAuth authentication (no password storage).</li>
+            <li>Self-hosted backend server with restricted access.</li>
+            <li>Encrypted Cloudflare Tunnel for service exposure.</li>
+        </ul>
+
+        <h2>10. Minors</h2>
+        <p>RuguMap is not intended for users under 16 years of age. We do not knowingly collect data from minors.</p>
+
+        <div class="footer">
+            <p>RuguMap — Citizen science<br>
+            Developed by JJR Dev Apps in collaboration with ICMAN-CSIC<br>
+            Contact: <a href="mailto:soporte@rugumap.es">soporte@rugumap.es</a></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
